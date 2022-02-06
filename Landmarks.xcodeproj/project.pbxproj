@@ -26,6 +26,7 @@
 		DA66545927AFB08600758764 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA66544D27AFB08600758764 /* turtlerock@2x.jpg */; };
 		DA66545B27AFB08600758764 /* hiddenlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA66544F27AFB08600758764 /* hiddenlake@2x.jpg */; };
 		DA66545D27AFB1AE00758764 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66545C27AFB1AE00758764 /* CircleImage.swift */; };
+		DA66546027AFB87200758764 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66545F27AFB87200758764 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		DA66544D27AFB08600758764 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
 		DA66544F27AFB08600758764 /* hiddenlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hiddenlake@2x.jpg"; sourceTree = "<group>"; };
 		DA66545C27AFB1AE00758764 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		DA66545F27AFB87200758764 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				DA66545C27AFB1AE00758764 /* CircleImage.swift */,
+				DA66545F27AFB87200758764 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA66541C27AFABAB00758764 /* ContentView.swift in Sources */,
+				DA66546027AFB87200758764 /* MapView.swift in Sources */,
 				DA66541A27AFABAB00758764 /* LandmarksApp.swift in Sources */,
 				DA66545D27AFB1AE00758764 /* CircleImage.swift in Sources */,
 			);
