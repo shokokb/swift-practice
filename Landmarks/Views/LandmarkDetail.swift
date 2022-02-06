@@ -17,22 +17,22 @@ struct LandmarkDetail: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack (alignment: .leading) {
-                Text("Turtle Rock")
+                Text(landmark.name)
                     .font(.title)
                 //.foregroundColor(.green)
                 HStack {
-                    Text("Joshua National Tree Park")
+                    Text(landmark.park)
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text(landmark.state)
                         .font(.subheadline)
                 }
                 // Spacer()
                 // ======
                 Divider()
-                Text("About Turtle Rock")
+                Text("About \(landmark.name)")
                     .font(.title2)
-                Text("Descriptive text goes here.")
+                Text(landmark.description)
             }
             .padding()
             Spacer()
