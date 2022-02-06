@@ -25,6 +25,7 @@
 		DA66545827AFB08600758764 /* stmarylake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA66544C27AFB08600758764 /* stmarylake@2x.jpg */; };
 		DA66545927AFB08600758764 /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA66544D27AFB08600758764 /* turtlerock@2x.jpg */; };
 		DA66545B27AFB08600758764 /* hiddenlake@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA66544F27AFB08600758764 /* hiddenlake@2x.jpg */; };
+		DA66545D27AFB1AE00758764 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66545C27AFB1AE00758764 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		DA66544C27AFB08600758764 /* stmarylake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stmarylake@2x.jpg"; sourceTree = "<group>"; };
 		DA66544D27AFB08600758764 /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
 		DA66544F27AFB08600758764 /* hiddenlake@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hiddenlake@2x.jpg"; sourceTree = "<group>"; };
+		DA66545C27AFB1AE00758764 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		DA66541827AFABAB00758764 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				DA66545E27AFB38E00758764 /* Views */,
 				DA66541927AFABAB00758764 /* LandmarksApp.swift */,
 				DA66541B27AFABAB00758764 /* ContentView.swift */,
 				DA66541D27AFABB200758764 /* Assets.xcassets */,
@@ -166,6 +169,14 @@
 				DA66544527AFB08500758764 /* umbagog@2x.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA66545E27AFB38E00758764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA66545C27AFB1AE00758764 /* CircleImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			files = (
 				DA66541C27AFABAB00758764 /* ContentView.swift in Sources */,
 				DA66541A27AFABAB00758764 /* LandmarksApp.swift in Sources */,
+				DA66545D27AFB1AE00758764 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

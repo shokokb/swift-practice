@@ -20,6 +20,7 @@ struct ContentView: View {
                 Text("California")
                     .font(.subheadline)
             }
+            CircleImage()
         }
         .padding()
     }
