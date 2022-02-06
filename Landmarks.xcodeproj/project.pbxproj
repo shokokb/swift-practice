@@ -123,7 +123,6 @@
 			children = (
 				DA66545E27AFB38E00758764 /* Views */,
 				DA66541927AFABAB00758764 /* LandmarksApp.swift */,
-				DA66541B27AFABAB00758764 /* ContentView.swift */,
 				DA66541D27AFABB200758764 /* Assets.xcassets */,
 				DA66541F27AFABB200758764 /* Preview Content */,
 			);
@@ -176,6 +175,7 @@
 		DA66545E27AFB38E00758764 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DA66541B27AFABAB00758764 /* ContentView.swift */,
 				DA66545C27AFB1AE00758764 /* CircleImage.swift */,
 				DA66545F27AFB87200758764 /* MapView.swift */,
 			);
